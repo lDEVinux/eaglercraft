@@ -1,0 +1,90 @@
+origin_blacklist_block_replit_clients: false
+enable_web_origin_blacklist: true
+server_name: EaglercraftBungee Server
+listeners:
+- fallback_server: lobby
+  tab_list: GLOBAL_PING
+  websocket: true
+  texture_size: 16
+  host: 0.0.0.0:25565
+  forced_hosts: {}
+  max_players: 60
+  tab_size: 60
+  default_server: lobby
+  force_default_server: true
+  forward_ip: false
+  server_icon: server-icon.png
+  motd1: '&6An Eaglercraft server'
+  allow_motd: true
+  allow_query: true
+  request_motd_cache:
+    cache_ttl: 7200
+    online_server_list_animation: false
+    online_server_list_results: true
+    online_server_list_trending: true
+    online_server_list_portfolios: false
+  ratelimit:
+    ip:
+      enable: true
+      period: 90
+      limit: 60
+      limit_lockout: 80
+      lockout_duration: 1200
+      exceptions: []
+    login:
+      enable: true
+      period: 50
+      limit: 5
+      limit_lockout: 10
+      lockout_duration: 300
+      exceptions: []
+    motd:
+      enable: true
+      period: 30
+      limit: 5
+      limit_lockout: 15
+      lockout_duration: 300
+      exceptions: []
+    query:
+      enable: true
+      period: 30
+      limit: 15
+      limit_lockout: 25
+      lockout_duration: 900
+      exceptions: []
+stats: 1795b100-6c57-4568-957f-810efbd77cc3
+groups: {}
+player_limit: -1
+servers:
+  lobby:
+    address: localhost:25569
+    restricted: false
+origin_blacklist_block_offline_download: false
+origin_blacklist_block_missing_origin_header: true
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - bungeecord.command.eag.domain
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.eag.ban
+  - bungeecord.command.eag.banwildcard
+  - bungeecord.command.eag.banip
+  - bungeecord.command.eag.banregex
+  - bungeecord.command.eag.reloadban
+  - bungeecord.command.eag.banned
+  - bungeecord.command.eag.banlist
+  - bungeecord.command.eag.unban
+  - bungeecord.command.eag.ratelimit
+  - bungeecord.command.eag.blockdomain
+  - bungeecord.command.eag.blockdomainname
+  - bungeecord.command.eag.unblockdomain
+origin_blacklist_subscriptions:
+- https://g.lax1dude.net/eaglercraft/origin_blacklist.txt
+- https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
+display_ban_type_on_kick: false
+timeout: 30000

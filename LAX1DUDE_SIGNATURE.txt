@@ -1,0 +1,76 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Hello, this is lax1dude, I regret to inform you that the official repository
+for Eaglercraft 1.5.2 has been deleted
+
+This folder contains a copy of the repo from the day it was deleted, and a tool
+to verify it's authenticity
+
+Run "GetRepositorySignature.bat", and verify that this is the result:
+
+
+~~~ Repository SHA-256: ~~~
+
+     ba2015db643a0dd6
+     e78bbf92f27f76ae
+     0797feb78874edb4
+     19d14a8b54373269
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Additionally, verify that the following files have the following SHA-1 checksums:
+
+GetRepositorySignature.jar: DCE2D7FDA9065B2475E5894E5D0960B57B03C661
+GetRepositorySignature.bat: 4B995076348E03A5322F3EB6AF72948E4C27CEB6
+GetRepositorySignature.sh: 8B269BA0D54C2B4BD7E9199B10C9769D39F00DC6
+
+
+If this is all correct, then you are truly using the official final release of
+Eaglercraft 1.5.2, made by the real LAX1DUDE ;>
+
+
+You can download a clean copy of "GetRepositorySignature.jar" here: [https://deev.is/eagler/GetRepositorySignature.jar]
+
+Use "GetRepositorySignature.sh" in place of "GetRepositorySignature.bat" on linux
+
+
+run "java -jar GetRepositorySignature.jar" to launch a GUI version of the tool,
+which allows you to select the repository to check using a file chooser
+
+
+To verify the PGP signature on this message, my public key is here: [https://deev.is/certs/LAX1DUDE_eagler_public.asc]
+
+The original copy of this message is available here too: [https://deev.is/eagler/LAX1DUDE_SIGNATURE.txt]
+
+
+Thank you all for the stars and support for this project but I simply want closure
+that I will never wake up one busy day in the future and have to drop everything
+and come back to this project and fight a DMCA when I'm not even working on it
+anymore. When a repository on github gets DMCA'd, all of it's forks also get DMCA'd
+which would eradicate it off github, but if we all fork it and then delete the
+original then Microsoft would have to DMCA individual forks instead of just my
+original repository which they obviously don't have time to do. This is for the
+best, trust me, we'll always have this checksum here of the files of the official
+final release so we can always find a repo and come back to this commit and check
+if it's mine and if it is then play it the way it was meant to be played with all
+of my original code and it'll be like I never deleted it
+
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEcBgAq2s4AHU8tLsdcu68cJImpGoFAmNmFz4ACgkQcu68cJIm
+pGrjlBAAjxaXHOI6DNoAORhsJUi+B9z84/3i+XJ7U7RXYnbI1Gtg6A6s2hozoXI3
+Dp3lrmS6VpaZiutlyzl6maraAtMKR/edQPl1N2p8ugqr6g+nwfCuBCjl32MOI56a
+DDti9Vzd8SUVKh4KCxQ4MJy8v0lg42z/1DBEWDWb/Ri7dWeGcxQARjNHnql999Jo
+f+ECDvOQgOtgQrIQkkFXfxqSvJi5uAT3MXQvEF7hBhMf9XbwNy8gfE8s1+o7rn55
+D78jmk0w3utzCzzj7QmAha+fLt9K97Xyd4L3vtMvnoEraW87Z3H8UCBQde+gXmm6
+Qwvul+pX/AmZaYF7cLs74oTctu6njCswXiKmobQpi0eIu1F4Q7fefByMFUUeF3kB
+8fNLUb7FYsYr97LWEtufDPdJ3eM/o5qn4SGlzjQlYUG/BGSfKd2dioNAKxwQZ4yb
+rLegHuQOjm3aAk0qlYaDM1PFpK5wiz3xjGIxt8uxxVrZ023Nk6fPF3ONyWlswYyv
+cnIIO9dSmcvvyIanhHF+tGYaPOct61YLH1vDoWE/OUrCG/B7vGGDnKW3X2dcI7NQ
+Pe+hgpcKc0qEkX8qr3SxHNJQgcWkVXnWLx8e3zZBqTYdSN8n4KgxJg0enHN9ylMu
+VOAaCkMYZfwK7wQgh0rgynmRyOYO2eQaet4HRsbxJlZLQ01sI5c=
+=Jgpm
+-----END PGP SIGNATURE-----

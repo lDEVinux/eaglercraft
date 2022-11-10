@@ -1,0 +1,62 @@
+# eaglercraft domain blacklist
+# this is a fallback in case deev.is goes down
+
+.*thecoderkid\.repl\.co$
+.*yeeyeepeic414\.repl\.co$
+.*computingsquid\.repl\.co$
+.*exgeegaming\.repl\.co$
+.*qwasz.*
+.*x.?ray.*
+.*ha(ck|x).*
+.*hia5046\.repl\.co$
+.*zswm\.xyz$
+.*fuchsiax\.dev$
+.*arrxd\.repl\.co$
+.*tfe4rless\.repl\.co$
+.*webhostapp\.com$
+.*eaglercrafthax.*
+.*nsert.*\.repl\.co$
+.*arilmao\.repl\.co$
+.*habanero2020\.repl\.co$
+.*deadfish\.cf$
+.*gitpod\.io$
+.*gsucks\.repl\.co$
+.*builders.tools\.tk$
+.*lapx\..*$
+.*oxgaming.*repl\.co$
+.*olproject\.ml$
+.*prof.*aming\.repl\.co$
+.*sucks\.repl\.co$
+.*reatel.*\.repl.co$
+.*keanan.*
+.*phoenix.*
+.*sus.*\.repl\.co$
+.*upport.*
+.*skool.*
+.*erosen.*
+.*deez.*nutz.*
+.*packtest.*
+.*eags\.us$
+.*resent.*
+.*razide.*
+.*neocities\.org$
+.*enma3\.repl\.co$
+.*legend.*\.repl\.co$
+.*ersupport\.com$
+.*amond\-slash.*
+.*pros.*min\.repl\.co$
+.*lybro\.repl\.co$
+.*onymous\.repl\.co$
+.*alpin.*\.repl\.co$
+.*arvin.*\.repl\.co$
+.*lolz.*
+.*zach.*\.repl\.co$
+
+# block ambiguous domains (excuse the regex skill issues)
+^(?!g\.deev\.is).*deev\.is$
+^(?!g\.lax1dude\.net).*lax1dude\.net$
+
+# replit-wildcard: .*repl(it)?\..{1,5}$
+
+# snitch other domains out at https://g.deev.is/eaglercraft/report.html
+# or join the discord server at https://discord.com/invite/KMQW9Uvjyq and ping @Moderator with the domain and name of the client

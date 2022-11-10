@@ -1,0 +1,60 @@
+eaglercraft is an AOT compiled port of mojang's minecraft 1.5.2 designed to run in an html5/javascript environment, using TeaVM and my opengl 1.3 emulator to simulate a desktop java enviroment fully compatible with minecraft java edition
+
+§1this §1project §1was §1created §1by §1lax1dude§r
+
+§4voice §4chat §4and §4singleplayer §4LAN §4worlds §4would §4not §4have §4been §4possible §4without §4ayunami2000's §4important §4contributions§r
+
+compiling the javascript and emulating the JRE is largely made possible by the TeaVM project, created by Alexey Andreev and is available for free at §nhttp://teavm.org/§r under Apache License 2.0
+
+eaglercraft also makes use of jCraft's jzlib port, available at §nhttp://www.jcraft.com/jzlib/§r under BSD-style licensing.
+
+all graphical assets in this project were ripped from mojang's official minecraft.jar for minecraft version 1.5.2 and they are mojang's intellectual property. assets ommitted include the minecraft soundtrack and music disks and all software references to the mojang/minecraft api.
+
+eaglercraft servers are powered by md_5's BungeeCord and the CraftBukkit project available at §nhttps://bukkit.org/§r. BungeeCord has been modified to accept eaglercraft's strange login packets and to host a websocket server to translate browser connections to raw TCP that vanilla minecraft servers can understand. All java plugins designed for CraftBukkit 1.5.2 are compatible with this configuration.
+
+scroll down for the detailed license statements
+
+========================================
+
+Copyright (c) 2022 LAX1DUDE
+
+This work is licensed under a Creative Commons
+Attribution-NonCommercial 4.0 International License
+§nhttp://creativecommons.org/licenses/by-nc/4.0/§r
+
+========================================
+
+TeaVM Copyright 2016 Alexey Andreev.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+§nhttp://www.apache.org/licenses/LICENSE-2.0§r
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+========================================
+
+NVIDIA FXAA 3.11 by TIMOTHY LOTTES
+
+Copyright (c) 2010, 2011 NVIDIA CORPORATION. ALL RIGHTS RESERVED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THIS SOFTWARE IS PROVIDED *AS IS* AND NVIDIA AND ITS SUPPLIERS DISCLAIM ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL NVIDIA OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THIS SOFTWARE, EVEN IF NVIDIA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+========================================
+
+JZlib Copyright (c) 2000-2011 ymnk, JCraft,Inc. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. The names of the authors may not be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL JCRAFT, INC. OR ANY CONTRIBUTORS TO THIS SOFTWARE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+========================================
+
+|>
+

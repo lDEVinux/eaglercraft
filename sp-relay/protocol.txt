@@ -1,0 +1,24 @@
+
+ Relay Packet Order:
+ ~~~~~~~~~~~~~~~~~~
+
+ Opening LAN world:
+
+ [Server -> Relay] Open WebSocket
+ [Server -> Relay] PKT 0x00: Send protocol id, identify as server
+ [Relay -> Server] PKT 0x00: Reply protocol id, assign join code
+ [Relay -> Server] PKT 0x01: Send ICE server list to server
+
+ Client connects:
+
+ [Client -> Relay] Open WebSocket
+ [Client -> Relay] PKT 0x00: Send protocol id, identify as client, send server join code
+ [Relay -> Client] PKT 0x00: Reply protocol id, assign client id
+ [Relay -> Client] PKT 0x01: Send ICE server list to client
+ [Relay -> Server] PKT 0x02: Notify server of the client, send client's id to server
+ [Client -> Relay -> Server] PKT 0x04: Send client description to server
+ [Server -> Relay -> Client] PKT 0x04: Send server description to client
+ [Client -> Relay -> Server] PKT 0x03: Send client ICE Candidate to server
+ [Server -> Relay -> Client] PKT 0x03: Send server ICE Candidate to client
+ [Client -> Relay -> Server] PKT 0x05 or 0x06: Client signals sucess or failure
+ [Relay -> Client] PKT 0xFE: Signal to close WebSocket

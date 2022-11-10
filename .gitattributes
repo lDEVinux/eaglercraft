@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#
+# https://help.github.com/articles/dealing-with-line-endings/
+#
+
+*.bat           text eol=crlf
+*.sh            text eol=lf
+gradlew         text eol=lf
+
+*.html linguist-vendored
+*.htm linguist-vendored

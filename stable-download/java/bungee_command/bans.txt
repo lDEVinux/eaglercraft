@@ -1,0 +1,51 @@
+
+#
+# This file allows you to configure bans for eaglercraftbungee
+# When it is saved, eaglercraft should reload it automatically
+# (check the console though to be safe)
+#
+# For a [Usernames] ban, just add the player's name. Use a colon ':' to put in a ban reason
+# For a [IPs] ban, just add the player's IP, or a subnet like 69.69.0.0/16 to ban all IPs beginning with 69.69.*
+# For a [Wildcards] ban, type a string and prefix and/or suffix it with * to define the wildcard
+# For a [Regex] ban, type a valid regular expression in the java.util.regex format
+#
+# All bans are case-insensitive, USERNAMES ARE CONVERTED TO LOWERCASE BEFORE BEING MATCHED VIA REGEX
+# Java regex syntax: https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+#
+
+# set this to false to use "/eag-ban" to ban on bungee instead of just "/ban"
+# (most likely needs a restart to take effect)
+replace-bukkit=false
+
+
+[Usernames]
+
+# ban_test1: The ban hammer has spoken!
+# ban_test2: custom ban message here
+# ban_test3
+
+# (remove the '#' before each line to enable)
+
+[IPs]
+
+# WARNING: if you're using nginx, banning any player's IP is gonna ban ALL PLAYERS on your server
+# For this reason, the ban IP command doesn't ban 127.0.0.1 or any other 'private' range IPs
+
+# 101.202.69.11
+# 123.21.43.0/24
+# 2601:1062:69:418:BEEF::10
+# 2601:6090:420::/48
+
+[Wildcards]
+
+# *fuck*
+# shi*
+
+
+[Regex]
+
+# you.+are.(a|the).+bitch
+
+
+# end of file
+
